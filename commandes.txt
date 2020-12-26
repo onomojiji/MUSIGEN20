@@ -1,0 +1,494 @@
+    1  sudo chmod -R +x xampp-linux-x64-7.2.34-0-installer.run 
+    2  ./xampp-linux-x64-7.2.34-0-installer.run 
+    3  sudo ./xampp-linux-x64-7.2.34-0-installer.run 
+    4  ll
+    5  dpkg -i code_1.51.1-1605051630_amd64.deb 
+    6  sudo dpkg -i code_1.51.1-1605051630_amd64.deb 
+    7  ll
+    8  sudo dpkg -i virtualbox-6.1_6.1.16-140961~Ubuntu~bionic_amd64.deb 
+    9  ll
+   10  sudo dpkg-i PacketTracer_731_amd64.deb 
+   11  sudo dpkg -i PacketTracer_731_amd64.deb 
+   12  apt-get
+   13  apt-get check 
+   14  sudo apt-get check 
+   15  sudo apt --fix-broken
+   16  sudo apt --fix-broken install 
+   17  sudo apt-get check 
+   18  cd Téléchargements/
+   19  sudo dpkg -i mysql-workbench-community_8.0.22-1ubuntu18.04_amd64.deb 
+   20  sudo apt-get update 
+   21  sudo apt-get upgrade 
+   22  sudo apt --fix-broken install 
+   23  sudo apt-get upgrade 
+   24  print(yo).py
+   25  cd Téléchargements/
+   26  ll
+   27  cp BalsamiqMockups-3-Win.exe /media/inimini/F868CDF768CDB4A2/Téléchargements/
+   28  cd /media/inimini/F868CDF768CDB4A2/Téléchargements/
+   29  ll
+   30  ll /media/inimini/
+   31  ls -lh
+   32  ls -lh /media/inimini/
+   33  man service
+   34  service --help
+   35  service --status start 
+   36  service --status-all
+   37  service bluetooth stop 
+   38  sudo service bluetooth start 
+   39  sudo service bluetooth stop
+   40  service --status-all
+   41  sudo ./Téléchargements/xampp-linux-x64-7.2.34-0-installer.run 
+   42  service --status-all
+   43  cd /media/inimini/WIN10_V1809/
+   44  ll
+   45  cp exo1.02122020.pkt exo1.03122020.pkt test02122020.pkt gles_db30112020.sql /home/inimini/Bureau/
+   46  mysql-workbench gles_db30112020.sql 
+   47  sudo apt-get vlc
+   48  apt-get vlc
+   49  sudo apt-get install vlc
+   50  cd ..
+   51  ll
+   52  cd inimini/
+   53  ll
+   54  cd .config/
+   55  ll
+   56  cd composer/
+   57  ll
+   58  cd vendor/
+   59  ll
+   60  cd laravel/
+   61  ll
+   62  cd installer/
+   63  ll
+   64  dpkg -i Téléchargements/google-chrome-stable_current_amd64.deb 
+   65  sudo dpkg -i Téléchargements/google-chrome-stable_current_amd64.deb 
+   66  sudo apt-get install composer 
+   67  composer global required laravel/installer
+   68  composer global require laravel/installer
+   69  sudo apt-get update 
+   70  composer global require laravel/installer
+   71  sudo apt-get upgrade install composer 
+   72  sudo apt-get upgrade composer 
+   73  composer
+   74  composer update
+   75  /home/inimini/.config/composer
+   76  cd /home/inimini/.config/
+   77  composer update
+   78  ll
+   79  cd composer/
+   80  ll
+   81  composer update
+   82  cd ..
+   83  composer global require laravel/installer
+   84  composer self-update --2
+   85  composer update --2
+   86  composer update -2
+   87  composer update
+   88  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+   89  php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62c56153228907f1545c228516cbf63f885e036d37e9a59d27d63f46af1d4d07ee0f76181c7d3') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+   90  php composer-setup.php
+   91  php -r "unlink('composer-setup.php');"
+   92  composer global require laravel/installer
+   93  cd Documents/
+   94  laravel new aplli2021
+   95  composer create-project laravel/laravel Appli2021
+   96  cd Documents/
+   97  ll
+   98  rm -r depotdistant/
+   99  ll
+  100  cp -r prestataire/ /home/inimini/Bureau/
+  101  rm -r /home/inimini/Bureau/prestataire/
+  102  cd ..
+  103  sudo apt-get install git
+  104  git --version 
+  105  git
+  106  man
+  107  help
+  108  exit 
+  109  sudo apt-get install gcp
+  110  gcp
+  111  man gcp
+  112  cd Téléchargements/
+  113  ll
+  114  gcp -rv /home/inimini/Téléchargements/xampp-linux-x64-7.2.34-0-installer.run  /home/inimini/Bureau/
+  115  grm
+  116  sudo apt-get install grm
+  117  sudo apt-get install grml-rescueboot 
+  118  rm -rv Bureau/xampp-linux-x64-7.2.34-0-installer.run 
+  119  cd /media/inimini/F868CDF768CDB4A2/
+  120  gcp -rv kali/ /home/inimini/Documents/
+  121  service --status-all
+  122  sudo ./Téléchargements/xampp-linux-x64-7.2.34-0-installer.run 
+  123  cd Documents/
+  124  ll
+  125  cd ..
+  126  sudo apt-get install apache2
+  127  cd /media/inimini/D691-308D/
+  128  l
+  129  gcp -rv /media/inimini/D691-308D/tp\ bd\ sql.txt /home/inimini/Documents/
+  130  cd /home/inimini/Documents/
+  131  ll
+  132  gedit tp\ bd\ sql.txt 
+  133  info
+  134  link info
+  135  link help
+  136  help
+  137  info
+  138  cd OS/
+  139  ll
+  140  gcp Windows\ 10\ v1809\ RS5\ 3in1\ Fr\ x64\ \(10\ Oct.\ 2018\).iso /media/inimini/D691-308D/
+  141  cd Documents/
+  142  ll
+  143  cd ..
+  144  cd Musique/
+  145  ll
+  146  python3.6
+  147  cd Musique/
+  148  ll
+  149  python3.6
+  150  mv cie\ rmx.wav ciermx.wav
+  151  ll
+  152  mv cqjv\ rmx.wav cqjv.wav
+  153  ll
+  154  mv nanga\ mboko\ rmx.wav nangamboko.wav
+  155  ll
+  156  gcp /home/inimini/OS/Windows\ 10\ v1809\ RS5\ 3in1\ Fr\ x64\ \(10\ Oct.\ 2018\).iso /media/inimini/MB\ SAMY/
+  157  gcp -vr /home/inimini/OS/Windows\ 10\ v1809\ RS5\ 3in1\ Fr\ x64\ \(10\ Oct.\ 2018\).iso /media/inimini/MB\ SAMY/
+  158  gcp -rv /home/inimini/OS/Windows\ 10\ v1809\ RS5\ 3in1\ Fr\ x64\ \(10\ Oct.\ 2018\).iso /media/inimini/MB\ SAMY/
+  159  apt
+  160  vlc
+  161  zoom
+  162  ifconfif
+  163  ipconfig
+  164  ifconfig
+  165  sudo apt-get install net-tools 
+  166  tasklist
+  167  taskset 
+  168  taskset --help 
+  169  taskset -a
+  170  top
+  171  sudo nano /etc/network/interfaces
+  172  sudo apt-get install net-tools 
+  173  service --status-all
+  174  job
+  175  sudo apt-get install net-tools 
+  176  ipconfig
+  177  ifconfig
+  178  ping 192.168.0.1
+  179  ifconfig -a
+  180  lshw -class network
+  181  sudo lshw -class network
+  182  taskset 
+  183  taskset --help
+  184  taskset -a
+  185  teams
+  186  sudo apt-get install teams
+  187  gcp -rv /home/inimini/Téléchargements/DATES/ /media/inimini/WIN10_V1809/
+  188  gcp -rv Téléchargements/CONCEPTS\ DE\ BASE/ /media/inimini/WIN10_V1809/
+  189  inxi -Fxz
+  190  sudo apt-get install inxi 
+  191  inxi -Fxz
+  192  pip
+  193  sudo apt-get install python-pip
+  194  pip
+  195  dpkg -i Téléchargements/code_1.5.1
+  196  Téléchargements/
+  197  ll
+  198  cd Téléchargements/
+  199  ll
+  200  sudo dpkg -i code_1.52.1-1608136922_amd64.deb 
+  201  cd ..
+  202  cd /media/inimini/
+  203  ll
+  204  cd /home/inimini/Bureau/
+  205  ll
+  206  cd Documents/
+  207  ll
+  208  cd Nouveau\ dossier/
+  209  ll
+  210  cd ..
+  211  cd Musique/
+  212  ll
+  213  gcp -rv ciermx.wav cqjv.wav nangamboko.wav /home/inimini/Documents/interfaces\ gsm
+  214  wget https://github.com/watson-developer-cloud/python-sdk.git
+  215  gcp python-sdk.git /home/inimini/Documents/
+  216  git
+  217  cd Documents/
+  218  ll
+  219  cd python-sdk-master/
+  220  git init
+  221  git status
+  222  git add -a
+  223  git add -A
+  224  git status
+  225  git push
+  226  git push ?
+  227  git push --help
+  228  git 
+  229  git help -g
+  230  git help everyday 
+  231  cd /media/inimini/WIN10_V1809/
+  232  gcp -rv FL\ STUDIO/ /home/inimini/Musique/
+  233  rm -v FL\ STUDIO/
+  234  rm -rv FL\ STUDIO/
+  235  ll
+  236  inxi 
+  237  pip
+  238  pip install wave
+  239  pip install ibm_watson
+  240  pip install ibm cloud sdk core.authenticators
+  241  pip install ibm_cloud_sdk_core.authenticators
+  242  clear
+  243  git staus
+  244  git status
+  245  git commit -m "premier mot du premier album, toujours avec mon frère..."
+  246  git config --global user.email "onomojj@gmail.com"
+  247  git config --global user.name "onomojj"
+  248  git commit -m "premier mot du premier album, toujours avec mon frère..."
+  249  git branch -M main
+  250  git remote add origin https://github.com/onomojj/code-watson.git
+  251  git push -u origin main 
+  252  git remote add origin https://github.com/onomojiji/code-watson.git
+  253  git remote add origin1 https://github.com/onomojiji/code-watson.git
+  254  git push -u origin1 main 
+  255  cd ..
+  256  git pull -u origin1 main 
+  257  git init
+  258  git pull -u origin1 main 
+  259  cd python-sdk-master/
+  260  git pull -u origin1 main 
+  261  git pull -v origin1 main 
+  262  git init
+  263  git status
+  264  git add -A
+  265  git status
+  266  git commit -m "Ceci est un petit exercice que j'avais commencé pendant le confinement mais que je n'ai pas fini..."
+  267  git branch -M main
+  268  git remote add origin https://github.com/onomojiji/COVID-19--Laravel.git
+  269  git push -u origin main 
+  270  shutdown 
+  271  shutdown -c
+  272  shutdown --help
+  273  shutdown -P
+  274  git status 
+  275  git add -A
+  276  git status 
+  277  git status
+  278  git /rm ._interface\ 10 ._interface\ 12 ._interface\ 8.html
+  279  git rm ._interface\ 10 ._interface\ 12 ._interface\ 8.html
+  280  git rm ._interface\ 10.html ._interface\ 12 ._interface\ 8.html
+  281  git rm ._interface\ 10.html ._interface\ 12.html ._interface\ 8.html
+  282  git rm -f ._interface\ 10.html ._interface\ 12.html ._interface\ 8.html
+  283  git rm -f babana.html index.html 
+  284  git status 
+  285  git log 
+  286  clear
+  287  git commit -m "J'ai supprimé les fichiers unitiles qui m'ont servi pour l'apprentissage de git"
+  288  git add interface\ 7.html 
+  289  git status 
+  290  git add -A
+  291  git status 
+  292  git log
+  293  git status 
+  294  npm i bootstrap-icons
+  295  sudo apt-get install npm
+  296  npm i bootstrap-ivons
+  297  npm i bootstrap-icons
+  298  ll
+  299  cd .npm/
+  300  ll
+  301  cd bootstrap-icons/
+  302  ll
+  303  cd 1.2.1/
+  304  l
+  305  cd /home/inimini/
+  306  npm help
+  307  npm init
+  308  express /home/inimini/
+  309  sudo apt install node-express-generator 
+  310  express /home/inimini/
+  311  sudo apt install npm
+  312  ll
+  313  npm i bootstrap-icons
+  314  npm install node_modules/bootstrap-icons 
+  315  npm install node
+  316  npm help
+  317  npm -v
+  318  npm upgrade
+  319  npm -v
+  320  npm update 
+  321  npm -v
+  322  npm install -g npm@lastest
+  323  sudo npm install -g npm@lastest
+  324  tar
+  325  tar --help
+  326  untar --help
+  327  cd Téléchargements/
+  328  tar -xf node-v14.15.3-linux-x64.tar.xz 
+  329  cd node-v14.15.3-linux-x64/
+  330  ll
+  331  cd bin/
+  332  ll
+  333  cd ..
+  334  sudo apt-get update 
+  335  sudo apt-get install nodejs npm
+  336  npm install-g nodejs@lastest
+  337  npm upgrade 
+  338  npm -v
+  339  npm up
+  340  npm -v
+  341  npm install-g nodejs@5
+  342  npm install-g npm@5
+  343  cd Téléchargements/
+  344  sudo chmod -r 755 node-v14.15.3-linux-x64
+  345  sudo chmod -R 755 node-v14.15.3-linux-x64
+  346  sudo apt install composer 
+  347  composer
+  348  git status 
+  349  git add interface\ 7.html 
+  350  git status 
+  351  git commit -m "ajout de l'interface 7"
+  352  git push origin 
+  353  git push origin1 
+  354  git push -u origin main
+  355  git remote add origin https://github.com/onomojiji/interface-gsm.git
+  356  git remote -v
+  357  git remote add origin https://github.com/onomojiji/interface-gsm
+  358  git remote add origin1 https://github.com/onomojiji/interface-gsm
+  359  git remote -v
+  360  git push origin1 master 
+  361  git init -b main
+  362  git push origin1 master 
+  363  git remote add origin https://github.com/onomojiji/interfaces-gsm
+  364  git remote add lienGitHub  https://github.com/onomojiji/interfaces-gsm
+  365  git remote remove origin
+  366  git remote remove origin1
+  367  git push lienGitHub master 
+  368  npm install bootstrap@next
+  369  git init
+  370  git status 
+  371  git add accueil.html 
+  372  git status 
+  373  git add accueil.css 
+  374  git status 
+  375  git add accueil.html 
+  376  git status 
+  377  git add README.md
+  378  git commit -m "22/12/20 création de la première interface de GET"
+  379  git branch -M main
+  380  git remote add origin https://github.com/onomojiji/GET.git
+  381  git push -u origin main 
+  382  git push ?
+  383  git push /?
+  384  git push --help
+  385  npm install -g bower
+  386  sudo npm install -g @angular/cli
+  387  npm install -g bower<link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+  388  npm -v
+  389  nodejs -v
+  390  curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+  391  sudo apt install curl
+  392  curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+  393  sudo apt-get install -y nodejs
+  394  node -v
+  395  npm -v
+  396  sudo npm install bootstrap-icons
+  397  clear
+  398  git status 
+  399  git add -A
+  400  git status
+  401  git push -u origin main
+  402  git push -u origin main 
+  403  clear
+  404  npm install material-design-icons
+  405  clear
+  406  sudo npm i bootstrap-icons
+  407  clear
+  408  cd Vidéos/
+  409  ll
+  410  vlc *
+  411  vlc * && code
+  412  vlc * & && code
+  413  vlc *& && code
+  414  pip
+  415  pip install numpy
+  416  nmcli com edit type pppoe com-name "programitNOW"
+  417  nmcli --help
+  418  nmcli con edit type pppoe com-name "programitNOW"
+  419  nmcli con edit type pppoe con-name "programitNOW"
+  420  cd Documents/
+  421  ll
+  422  cd GET/
+  423  ll
+  424  firefox accueil.html 
+  425  cd /home/inimini/Vidéos/
+  426  ll
+  427  gcp -rv Speech\ Recognition\ using\ Python\(720P_HD\).mp4 /home/inimini/Documents/GET/videos/
+  428  cd ..
+  429  pip
+  430  pip --version
+  431  python3
+  432  pip install pandas
+  433  pip install matplotlib
+  434  pip install librosa
+  435  cd Téléchargements/
+  436  ll
+  437  cd quiz/
+  438  ll
+  439  cat fichier.txt 
+  440  ls -la > liste.txt
+  441  ls 2019/
+  442  cp fichier.txt fichier2.txt && cp lorem.txt fichier2.txt && less fichier2.txt
+  443  less lorem.txt 
+  444  rm test
+  445  cd ..
+  446  sudo apt-get update
+  447  sudo apt-get upgrade 
+  448  git status
+  449  git add -A
+  450  git status
+  451  clear
+  452  pip install librosa
+  453  sudo pip install librosa
+  454  sudo pip install wave
+  455* sudo pip install wave
+  456  sudo pip install numpy
+  457  pip
+  458  sudo pip3 install wave
+  459  sudo pip3 install numpy
+  460  sudo pip3 install matplotlib
+  461  sudo pip3 install librosa
+  462  clear
+  463  python3 -u "test1.py"
+  464  python3 -u "tes1.py"
+  465  python3 -u "test1.py"
+  466  sudo pip3 install SpeechRecognition
+  467  python3 -m speech_recognition
+  468  sudo pip3 install pyaudio
+  469  python3 -m speech_recognition
+  470  python -m speech_recognition
+  471  python3 -m speech_recognition
+  472  sudo pip3 install pyaudio
+  473  pip3 list
+  474  sudo pip3 install pyaudio
+  475  python3 -m speech_recognition
+  476  clear
+  477  sudo pip3 install os
+  478  clear
+  479  sudo pip3 install python3-vlc
+  480  pip3 list
+  481  ppython3 -u "playFile.py"
+  482  python3 -u "playFile.py"
+  483  python3  "playFile.py"
+  484  python3 "playFile.py"
+  485  python3 -u "playFile.py"
+  486  clear
+  487  git init
+  488  git status 
+  489  git add convetVoicetoText.py playFile.py plotWaveFileFrorm.py 
+  490  git status 
+  491  git commit -m "Premier son joué le Jeudi 24 décembre 2020. Que Dieu nous bénisse"
+  492  git remote add https://github.com/onomojiji/MUSIGEN
+  493  git remote add -m https://github.com/onomojiji/MUSIGEN
+  494  history > commandes.txt
