@@ -10,5 +10,6 @@ data_dir = '/Files/Claps'
 
 audio_files = glob(data_dir + '/*.wv')
 
-audio, sfeq = lr.load(audio_files[0])
+audio, sfreq = lr.load(audio_files[0])
 
+time = np.arange(0, len(audio)) / sfreq

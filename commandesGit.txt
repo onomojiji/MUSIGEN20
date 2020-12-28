@@ -1,0 +1,7 @@
+
+pour créer une connexion avec notredepôt distant, on procède comme suit :{
+    
+}
+
+
+git branch = "pour voir les branches existantes sur notre dépôt"
