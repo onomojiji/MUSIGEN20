@@ -5,7 +5,7 @@ import speech_recognition as sr
 r = sr.Recognizer()
 
 with sr.Microphone() as source:
-    print('Dites quelque chose : ')
+    print('\n\nDites quelque chose : ')
     audio = r.listen(source)
 
     try :
@@ -13,4 +13,4 @@ with sr.Microphone() as source:
         print('Vous avez dit : {}'.format(text))
 
     except :
-        print("Désolé, Nous n'avons pa pu identifier votre voix...")
+        print("Desole, Nous n'avons pas pu identifier votre voix...")

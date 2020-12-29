@@ -98,15 +98,12 @@ while AppActif :
                         print("\n\
                         Choix Indisponible...\n\
                         Entrez '1' Pour RAP et '2' pour BIKUTSI...\n")
-                        
-                        AppActif = continuer()
+
 
         except :
                 print("\n\
                         Choix Indisponible...\n\
                         Entrez '1' Pour RAP et '2' pour BIKUTSI...\n")
-
-                AppActif = continuer()
                         
 
 
