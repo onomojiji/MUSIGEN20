@@ -1,16 +1,23 @@
 
-A = 4
-B = 2
+A = 2
+B = 9
 
 
 if A < B:
-    print('A = {A}\n B = {B}\n')
+    print(f'\n\
+            A = {A}\n\
+            B = {B}\n')
 
 elif A > B:
-    A = B
-    B = A 
-    print('A = {A}\n B = {B}\n')
+    
+    grand = A
+
+    A = B 
+
+    B = grand
+
+    print(f'\nA = {A}\n B = {B}\n')
 
 else:
-    print('A et B sont Egaux...')
+    print(f'\nA et B sont Egaux...\n')
 
