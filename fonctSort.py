@@ -8,6 +8,8 @@ i = 0
 
 while i <= nbElements:
 
+    i+=1
+
     if tableau[i] > tableau[i+1]:
     
         element = tableau[i]
@@ -33,5 +35,3 @@ while i <= nbElements:
 
     print(tableau[i])
     print(tableau)
-
-    i+=1
