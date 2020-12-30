@@ -1,0 +1,22 @@
+
+pour créer une connexion avec notredepôt distant, on procède comme suit :
+    {
+        git init = initialisation ou réinitialisation d'un depôt git
+        git remote add nomDepotLocal lienGitCloneDepôtDistant = permet de pointer sur 
+                                                                le dépôt distant ou alors ça permet de lier 
+                                                                notre dépôt local au dépôt distant.
+        git clone lienGitCloneDepôtDistant = pour télécharger le code source du dépôt distant
+    }
+
+
+git branch = "pour voir les branches existantes sur notre dépôt"
+
+git branch nomBranche = pour créer une nouvelle branche
+
+git checkout nomBranche = pour passer de la branche actuelle à la branche nomBranche
+
+git push -u nomDepotLocal nomBranche = pousser notre travail vers le dépôt distant
+
+git pull --all = télécharger la version récente du dépôt sur notre machine.
+
+

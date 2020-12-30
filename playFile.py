@@ -22,14 +22,15 @@ compo2 = 'totem\
 AppActif = True
 
 def continuer ():
-
-        reponse2 = input("\n\
-                Continuer à explorer d'autres styles ?\n\
-                Oui(o) / Non(n) : ")
-
+        
         oui = True
 
         while oui :
+
+                reponse2 = input("\n\
+                Continuer à explorer d'autres styles ?\n\
+                Oui(o) / Non(n) : ")
+
 
                 try :
                         reponse2 = str(reponse2)
@@ -49,11 +50,12 @@ def continuer ():
                         else:
                                 print("\n\
                                 Veuillez Enter 'o' pour Oui et 'n' pour Non...\n")
-                                break
+
 
                 except :
                         print("\n\
                                 Veuillez Enter 'o' pour Oui et 'n' pour Non...\n")
+                                
                         
         return oui
 
@@ -96,15 +98,12 @@ while AppActif :
                         print("\n\
                         Choix Indisponible...\n\
                         Entrez '1' Pour RAP et '2' pour BIKUTSI...\n")
-                        
-                        AppActif = continuer()
+
 
         except :
                 print("\n\
                         Choix Indisponible...\n\
                         Entrez '1' Pour RAP et '2' pour BIKUTSI...\n")
-
-                AppActif = continuer()
                         
 
 
