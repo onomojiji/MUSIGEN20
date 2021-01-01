@@ -57,7 +57,7 @@ def OrdreCroissant(tab:list):
 
     # l'objectif ici étant de classer par ordre croissant les éléments du tableau :
 
-    for i in range(0, nbElements) : 
+    for i in range(0, len(tableau)) : 
 
         if tableau[0] > tableau[i] : # Je compare le nombre à la position i au nombre à la position 0 d'abord pour me rassurer que mon derrière est déjè bon.
             permutter(0,i); N+=3
@@ -76,7 +76,7 @@ def OrdreDecroissant(tab:list):
 
     # l'objectif ici étant de classer par ordre décroissant les éléments du tableau :
 
-    for i in range(nbElements-1, 0,-1) :
+    for i in range(len(tableau)-1, 0,-1) :
     
         if tableau[i] > tableau[0] : # La même chanson...
             permutter(i,0); N2+=3
@@ -94,10 +94,7 @@ def OrdreDecroissant(tab:list):
 
 tableau = [7, 17, 9,0,454,4,78,1,123,-3,-13,79,908,28,34,654,23,0.34,25]
 
-nbElements = len(tableau)
-
 N = 0 ; N2 = 0
 
 OrdreCroissant(tableau)
 OrdreDecroissant(tableau)
-
