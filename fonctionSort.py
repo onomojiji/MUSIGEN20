@@ -1,3 +1,4 @@
+import random
 ''' 
     Titre : programme complet de tri Basique des elemments d'un tableau ;
             programme de la fonction python sort()
@@ -92,9 +93,18 @@ def OrdreDecroissant(tab:list):
 
 #################################### P.R.O.G.R.A.M.M.E ############################################
 
-tableau = [7, 17, 9,0,454,4,78,1,123,-3,-13,79,908,28,34,654,23,0.34,25]
+''' tableau = [7, 17, 9,0,454,4,78,1,123,-3,-13,79,908,28,34,654,23,0.34,25] '''
+
+with open("fiTab.txt", encoding="utf-8") as fichier:
+    tableau = [l.strip() for l in fichier]
+
 
 N = 0 ; N2 = 0
 
 OrdreCroissant(tableau)
 OrdreDecroissant(tableau)
+
+nbInstructions = open('nbInstructions.txt','a')
+nbInstructions.write(f"\n\
+                        niUpMethoduBoeuf = {N}\n\
+                        niDownMethoduBoeuf = {N2}\n")
