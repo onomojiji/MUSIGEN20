@@ -10,6 +10,7 @@ def U(x):
 print(U(10))
 
 print(random.randint(2,9)) '''
+
 def U(x):
     if x==0:
         return 0
