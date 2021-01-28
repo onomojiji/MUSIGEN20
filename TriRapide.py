@@ -46,26 +46,26 @@ import random
 
 N = 0
 
-def partition(tableau:list,debut:int,fin:int):
+def partition(tableau:list, debut:int, fin:int):
     global N
     indicepivot : int; N+=1
     k = debut ; N+=1
     tmp : int ; N+=1
     i : int ; N+=1
 
-    indicepivot = random.randint(debut,fin) ; N+=1
+    indicepivot = random.randint(debut, fin) ; N+=1
 
     tmp = tableau[indicepivot] ; N+=1
     tableau[indicepivot] = tableau[debut] ; N+=1
     tableau[debut] = tmp ; N+=1
 
-    for i in range(debut+1,fin,1):
+    for i in range(debut+1, fin, 1):
         if tableau[i] < tableau[debut]:
             tmp = tableau[i] ; N+=1
             tableau[i] = tableau[k+1] ; N+=1
             tableau[k+1] = tmp ; N+=1
             k+=1 ; N+=1
-    
+
     tmp = tableau[debut] ; N+=1
     tableau[debut] = tableau[k] ; N+=1
     tableau[k] = tmp ; N+=1

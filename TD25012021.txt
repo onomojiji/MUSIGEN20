@@ -1,0 +1,14 @@
+
+EXERCICE 1 :
+    écrire une procédure tracé rectangle, qui prend en paramètre la longueur et la largeur de 
+    ce rectangle; déssine ce rectange en se servant d'un symbole quelconque passé en paramètre.
+
+
+EXERCICE 2 :
+    écrire une procédure qui prend en paramètre un tableau de taille n d'entier et l'initialise en 
+    mettant toutes ses cellules à 0.
+
+
+EXERCICE 3 :
+    reprendre les exercices 1 à 5 de la fiche de TD sur les Tri et écrire formellement les procédures
+    et les fonctions.
