@@ -11,3 +11,18 @@
                         niUpTriRapide = 351000
 
                         niUpTriRapide = 385920
+
+                        niUpTriparInsertion = 49726276
+                        niDownTriparInsertion = 100009910
+
+                        niUpMethoduBoeuf = 54508920
+                        niDownMethoduBoeuf = 149909886
+<<<<<<< HEAD
+
+                        niUpTriparInsertion = 49726276
+                        niDownTriparInsertion = 100009910
+
+                        niUpTriRapide = 355822
+
+                        niUpTriRapide = 343740
+=======
